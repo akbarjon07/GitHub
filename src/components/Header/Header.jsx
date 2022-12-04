@@ -7,15 +7,15 @@ export const Header = () => {
     const [userName, setUserName] = useState("");
     const [itemList, setItemList] = useState([]);
 
-    useEffect(() => {
-        async function searchData() {
-            const res = await fetch(`https://api.github.com/search/users?q=${userName}`)
-            const result = await res.json()
-            setItemList(result.items);
-            console.log(result);
-        }
-        searchData()
-    }, [])
+    // useEffect(() => {
+    //     async function searchData() {
+    //         const res = await fetch(`https://api.github.com/search/users?q=${userName}`)
+    //         const result = await res.json()
+    //         setItemList(result.items);
+    //         console.log(result);
+    //     }
+    //     searchData()
+    // }, [])
 
     const style = {
         fontSize: "1rem",
@@ -35,7 +35,7 @@ export const Header = () => {
                         setUserName(e.target.value)
                     }}/>
 
-                    <ul className="dropdown-menu">
+                    {/* <ul className="dropdown-menu">
                         {
                             itemList?.length > 0 ? itemList.map((item) => {
                                 return (
@@ -43,7 +43,7 @@ export const Header = () => {
                                 )
                             }) : <li className="dropdown-item"></li>
                         }
-                    </ul>
+                    </ul> */}
                 </div>
 
 
