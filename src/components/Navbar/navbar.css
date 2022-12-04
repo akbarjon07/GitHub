@@ -1,0 +1,36 @@
+.navbar-section {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #BEBFC1;
+
+}
+
+.nav-list {
+    margin: 0;
+    margin-left: 400px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item + .nav-item {
+    margin-left: 20px;
+}
+
+.nav-item:focus {
+    border-bottom: 1px solid #FD8C73;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.nav-btn {
+    background: #fff;
+    border: none;
+}
+
+.active {
+    border-bottom: 1px solid #FD8C73;
+}

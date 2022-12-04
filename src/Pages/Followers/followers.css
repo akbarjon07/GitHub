@@ -1,0 +1,32 @@
+.followers-section {
+    margin-left: 30px;
+    width: 950px;
+}
+
+.followers-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.followers-item {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #D8DEE3;
+}
+
+.followers-img {
+    border-radius: 50%;
+}
+
+.followers-login {
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+.followers-login:hover {
+    color: #0B58CA;
+}

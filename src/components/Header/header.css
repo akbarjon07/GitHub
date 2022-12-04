@@ -1,0 +1,73 @@
+.header {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: #24292E;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+}
+
+.header__search-input {
+    width: 300px;
+    margin-left: 30px;
+    padding: 3px;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #C6C7C8;
+    border-radius: 5px;
+}
+
+.header__link-list {
+    margin: 0;
+    margin-left: 25px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.header__link-item + .header__link-item{
+    margin-left: 20px;
+}
+
+.header__link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    color: #fff;
+}
+
+.header__link:hover {
+    color: #BEBFC1;
+}
+
+.header__btn-wrapper {
+    margin-left: 330px;
+    display: flex;
+    align-items: center;
+}
+
+.header__note-btn {
+    background: transparent;
+    border: none;
+}
+
+.header__repo-btn {
+    margin-left: 5px;
+    background: transparent;
+    border: none;
+}
+
+.dropdown-item:hover {
+    background-color: #0968DA;
+    color: #fff;
+}
+
+.header__prof-btn {
+    margin-left: 5px;
+    background: transparent;
+    border: none;
+}
+

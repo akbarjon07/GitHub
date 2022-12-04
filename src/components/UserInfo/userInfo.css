@@ -1,0 +1,82 @@
+.user-info-section {
+    width: 300px;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+.user-info-img {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+    border: 1px solid #DDDEDE;
+    border-radius: 50%;
+}
+
+.user-info-title {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    color: #24292E;
+}
+
+.user-info-login {
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 0;
+    text-align: left;
+    font-size: 20px;
+    color: #57606A;
+}
+
+.user-info-bio {
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    text-align: left;
+    color: #24292E
+}
+
+.user-info-btn {
+    width: 300px;
+    margin-bottom: 10px;
+    border: 1px solid #57606A;
+}
+
+.user-info-follow {
+    width: 300px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.p {
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+}
+
+.span {
+    margin-left: 10px;
+}
+
+.wrapper {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.desc {
+    margin: 0;
+    margin-left: 5px;
+    padding: 0;
+    font-size: 14px;
+}
+
+.f-link {
+    text-decoration: none;
+    color: black;
+}
+
+.f-link:hover {
+    color: #0968DA;;
+}

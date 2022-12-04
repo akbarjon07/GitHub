@@ -1,0 +1,33 @@
+.following-section {
+    margin-left: 30px;
+    padding-bottom: 30px;
+    width: 950px;
+}
+
+.following-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.following-item {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #D8DEE3;
+}
+
+.following-img {
+    border-radius: 50%;
+}
+
+.following-login {
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+.following-login:hover {
+    color: #0B58CA;
+}
